@@ -29,3 +29,7 @@ Would have also considered keeping the entity class, but appeared to be for a di
 - for a json list with full details of all the cakes in the system http://localhost:8282/cakes/
 - to add a new cake to the system, Post request (with cake model) to http://localhost:8282/cakes/ (see http://localhost:8282/swagger-ui.html#/cake-controller/addCakeUsingPOST)
 - to find an existing cake by title, use localhost:8282/cakes/findCake, e.g. http://localhost:8282/cakes/findCake?title=Banana cake
+
+## Additional
+- a simple Cucumber test run (using SpringBootTest) has also been added, and will run automatically as part of maven build
+- can also run the Cucumber tests through IDE by running CucumberRunnerIntegrationTest class (or run with IntelliJ plugin on the feature file)
