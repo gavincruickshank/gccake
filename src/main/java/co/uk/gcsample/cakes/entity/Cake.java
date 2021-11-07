@@ -1,13 +1,11 @@
-package co.uk.gcsample.cakes.model;
+package co.uk.gcsample.cakes.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table
 public class Cake {
 
     @Id

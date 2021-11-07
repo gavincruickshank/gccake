@@ -1,6 +1,6 @@
 package co.uk.gcsample.cakes.service;
 
-import co.uk.gcsample.cakes.model.Cake;
+import co.uk.gcsample.cakes.entity.Cake;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
